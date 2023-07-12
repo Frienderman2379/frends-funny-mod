@@ -3,23 +3,26 @@
 	"id": "frendsfunnymod",
 	"version": "${version}",
 	"name": "Frend's Funny Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "My mod for just messing around.",
 	"authors": [
-		"Me!"
+		"Frienderman2379"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Frienderman2379",
+		"sources": "https://github.com/Frienderman2379/frendsfunnymod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/frendsfunnymod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.frienderman2379.frendsfunnymod.ExampleMod"
+			"net.frienderman2379.frendsfunnymod.frendsfunnymod"
+		],
+		"client": [
+			"net.frienderman2379.frendsfunnymod.frendsfunnymodClient"
 		],
 		"fabric-datagen": [
-			"net.frienderman2379.frendsfunnymod.ExampleModDataGenerator"
+			"net.frienderman2379.frendsfunnymod.frendsfunnymodDataGenerator"
 		]
 	},
 	"mixins": [
